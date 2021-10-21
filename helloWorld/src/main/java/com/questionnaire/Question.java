@@ -1,4 +1,4 @@
-package com.olivertech;
+package com.questionnaire;
 
 public class Question {
     private String question;
@@ -13,5 +13,12 @@ public class Question {
 
     public void setQuestion(String question) {
         this.question = question;
+    }
+
+    @Override
+    public String toString() {
+        return "Question{" +
+                "question='" + question + '\'' +
+                '}';
     }
 }

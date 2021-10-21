@@ -1,4 +1,4 @@
-package com.olivertech;
+package com.questionnaire;
 
 public class Person2 {
     private String name;
@@ -23,5 +23,10 @@ public class Person2 {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return name + email;
     }
 }
